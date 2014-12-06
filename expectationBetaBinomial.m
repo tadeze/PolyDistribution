@@ -49,3 +49,16 @@ for alpha1 = 1:10
         invFIM{alpha(1), alpha(2)} = iFIM;
     end
 end
+
+% save CRLB for alpha1 and alpha2
+CRLB_a1 = zeros(10,10);
+CRLB_a2 = zeros(10,10);
+for a = 1:10
+    for b = 1:10
+        CRLB_a1(a,b) = invFIM{a,b}(1,1);
+        CRLB_a2(a,b) = invFIM{a,b}(2,2);
+    end
+end
+
+csvwrite('CRLB.alpha1.csv', CRLB_a1);
+csvwrite('CRLB.alpha2.csv', CRLB_a2);
