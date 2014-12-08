@@ -2,8 +2,8 @@
 clear all;
 rng(2);
 
-m = 20; % number of observation
-n = 20; % length of each observation, number of trials for binomial
+m = 200; % number of observation
+n = 200; % length of each observation, number of trials for binomial
 
 MSE_al = zeros(10,10);
 MSE_a2 = zeros(10,10);
@@ -34,5 +34,5 @@ for a1 = 1:10
     end
 end
 
-csvwrite('MSE.MOM.alpha1.csv', MSE_al);
-csvwrite('MSE.MOM.alpha2.csv', MSE_a2);
+csvwrite('MSE.MOM.alpha1.m200.csv', MSE_al);
+csvwrite('MSE.MOM.alpha2.m200.csv', MSE_a2);
