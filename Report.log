@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.19)  4 DEC 2014 00:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.19)  9 DEC 2014 02:04
 entering extended mode
 **Report.tex
 ("E:\Classes\Fall 2014\ECE565\polya\PolyDistribution\Report.tex"
@@ -839,85 +839,91 @@ ABD: EveryShipout initializing macros
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 77.
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--101
+Underfull \hbox (badness 10000) in paragraph at lines 92--103
 
  []
 
 
-Overfull \hbox (23.11777pt too wide) in paragraph at lines 123--123
+Overfull \hbox (23.11777pt too wide) in paragraph at lines 125--125
 [] 
  []
 
-[1
+
+Underfull \vbox (badness 4518) has occurred while \output is active []
+
+ [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-Overfull \hbox (57.12364pt too wide) in paragraph at lines 150--150
+Overfull \hbox (57.12364pt too wide) in paragraph at lines 152--152
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-[2]
-Overfull \hbox (23.11777pt too wide) in paragraph at lines 179--179
+
+Overfull \hbox (23.11777pt too wide) in paragraph at lines 181--181
 [] 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 216--218
+Underfull \hbox (badness 10000) in paragraph at lines 218--220
 
  []
 
-<plot.pdf, id=26, 578.16pt x 722.7pt>
+[4] <plot.pdf, id=29, 578.16pt x 722.7pt>
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf>
-Package pdftex.def Info: plot.pdf used on input line 250.
+Package pdftex.def Info: plot.pdf used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 722.69823pt.
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf>
-Package pdftex.def Info: plot.pdf used on input line 250.
+Package pdftex.def Info: plot.pdf used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 722.69823pt.
- [4]
-<plot.pdf, id=32, page=1, 578.16pt x 722.7pt>
+
+[5] <plot.pdf, id=35, page=1, 578.16pt x 722.7pt>
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf, page 1>
-Package pdftex.def Info: plot.pdf, page1 used on input line 250.
+Package pdftex.def Info: plot.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 578.15858pt x 722.69823pt.
 File: plot.pdf Graphic file (type pdf)
 
 <use plot.pdf, page 1>
-Package pdftex.def Info: plot.pdf, page1 used on input line 250.
+Package pdftex.def Info: plot.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 614.4611pt x 768.07639pt.
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf, page 1>
-Package pdftex.def Info: plot.pdf, page1 used on input line 250.
+Package pdftex.def Info: plot.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 614.4611pt x 768.07639pt.
 File: plot.pdf Graphic file (type pdf)
  <use plot.pdf, page 1>
-Package pdftex.def Info: plot.pdf, page1 used on input line 250.
+Package pdftex.def Info: plot.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 614.4611pt x 768.07639pt.
 File: plot.pdf Graphic file (type pdf)
 
 <use plot.pdf, page 1>
-Package pdftex.def Info: plot.pdf, page1 used on input line 250.
+Package pdftex.def Info: plot.pdf, page1 used on input line 252.
 (pdftex.def)             Requested size: 614.4611pt x 768.07639pt.
- [5 <E:/Classes/Fall 2014/ECE565/polya/PolyDistribution/plot.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
+ [6 <E:/Classes/Fall 2014/ECE565/polya/PolyDistribution/plot.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--257
+Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
  []
 
-[6] ("E:\Classes\Fall 2014\ECE565\polya\PolyDistribution\Report.aux") ) 
+[7] ("E:\Classes\Fall 2014\ECE565\polya\PolyDistribution\Report.aux") ) 
 Here is how much of TeX's memory you used:
  19860 strings out of 493921
  367406 string characters out of 3144872
- 467284 words of memory out of 3000000
+ 469285 words of memory out of 3000000
  22759 multiletter control sequences out of 15000+200000
  14621 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -936,9 +942,9 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmr8a.pfb>
-Output written on Report.pdf (6 pages, 154133 bytes).
+Output written on Report.pdf (7 pages, 156051 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
+ 89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

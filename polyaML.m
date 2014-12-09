@@ -3,7 +3,7 @@
 clear all
 rng(0);  
 
-m=100;
+m=20;
 n=20;
 
 MSE1=zeros(10,10);
@@ -14,9 +14,9 @@ for a1=1:10
         disp([a1 a2]);
         alphaG=[a1 a2];
         mse=zeros(200, 2);
-        for iter = 1:200
+        for iter = 1:1000
             % initialize alpha randomly
-            alpha=randi(10,[1,2]);
+            alpha=alphaG;%randi(10,[1,2]);
             
             % Generate data
             n_1 = genDataBetaBinomial(alphaG, n, m);
@@ -34,10 +34,11 @@ for a1=1:10
             ep=0.001;
             conv=[1 1];
             cnt = 0;
-            while(conv(1) > ep || conv(2) > ep)
-                if(cnt > 1000)
-                    break;
-                end
+            while(cnt<200)
+                %conv(1) > ep || conv(2) > ep)
+%                 if(cnt > 1000)
+%                     break;
+%                 end
                 cnt = cnt + 1;
                 alpha1 = alpha;
                 den= m * calcPsi(n, sum(alpha));
@@ -59,5 +60,5 @@ for a1=1:10
         MSE2(a1,a2)=meanMSE(2);
     end
 end
-csvwrite('momInit.MSE.ML.alpha1mo100.csv', MSE1);
-csvwrite('momInit.MSE.ML.alpha2mo100.csv', MSE2);
+csvwrite('momInit.MSE.ML.alpha1n20m20i1000.csv', MSE1);
+csvwrite('momInit.MSE.ML.alpha2n20m20i1000.csv', MSE2);
