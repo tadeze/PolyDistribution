@@ -75,8 +75,8 @@
 %\pagebreak
 
 \section{Introduction} \label{INTRO}
-A topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents. Intuitively, given that a document is about a particular topic, one would expect particular words to appear in the document more or less frequently.The idea behind Topic modelling (LDA) is to model documents as arising from multiple topics, where a topic is defined to be a distribution over a fixed vocabulary words. Specifically, the assumption is k topics are associated with a collection and that each document exhibits these topics with different proportions.
-
+A topic model is a type of statistical model for discovering the abstract "topics" that occur in a collection of documents. Intuitively, given that a document is about a particular topic, one would expect particular words to appear in the document more or less frequently.The idea behind Topic modelling (LDA) is to model documents as arising from multiple topics, where a topic is defined to be a distribution over a fixed vocabulary words. Specifically, the assumption is k topics are associated with a collection and that each document exhibits these topics with different proportions.\\
+Drichlet-multinomial (polya distribution) has been used in topic modelling. Where topics are distributed with drichlet distribution of parameter $\alpha_k$ for K topics and each word in the documents are drawn from multinomial distribution of K topics.\\
 In this project our goal is to estimate parameters of Poly's distribuiotn using different methods like maximum likelihood and method of moments, and compare their performance with the Cramer Rao Lower bound. In Polya distribution we have $k$ parameters $p_1, p_2, ..., p_k$ for multinomial distribution representing probabilities for $k$ categories. These $k$ parameters are random and coming from Dirichlet distribution with parameters $\alpha_1, \alpha_2, ..., \alpha_k$. In this project we explore a simple case where number of categories are just two. Hence, the multinomial reduces to Binomial and Dirichlet reduces to Beta distribution.
 
 \section{Cramer Rao Lower Bound}\label{CRLB}
@@ -267,6 +267,12 @@ Thomas P. Minka.
 \newblock Inequalities and Monotonicity for the Ratio of Gamma Functions,
 \newblock Taiwanese Journal of Mathematics, 
 \newblock Vol 19, No. 7. pp. 407-409. (1976).
+\bibitem{Blei02}
+David Blei,Anrew Y.Ng, Michael I. Jordan
+\newblock Laten Drichlet Allocation
+\newblock2002
+\newblock 
+
 \end{thebibliography}
 
 \end{document}

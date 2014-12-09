@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.19)  9 DEC 2014 02:04
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.11.19)  9 DEC 2014 10:39
 entering extended mode
 **Report.tex
 ("E:\Classes\Fall 2014\ECE565\polya\PolyDistribution\Report.tex"
@@ -848,10 +848,7 @@ Overfull \hbox (23.11777pt too wide) in paragraph at lines 125--125
 [] 
  []
 
-
-Underfull \vbox (badness 4518) has occurred while \output is active []
-
- [1
+[1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (57.12364pt too wide) in paragraph at lines 152--152
@@ -921,10 +918,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--259
 
 [7] ("E:\Classes\Fall 2014\ECE565\polya\PolyDistribution\Report.aux") ) 
 Here is how much of TeX's memory you used:
- 19860 strings out of 493921
- 367406 string characters out of 3144872
- 469285 words of memory out of 3000000
- 22759 multiletter control sequences out of 15000+200000
+ 19863 strings out of 493921
+ 367448 string characters out of 3144872
+ 468286 words of memory out of 3000000
+ 22762 multiletter control sequences out of 15000+200000
  14621 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  55i,18n,65p,3243b,408s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -942,7 +939,7 @@ s/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/typ
 e1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/time
 s/utmr8a.pfb>
-Output written on Report.pdf (7 pages, 156051 bytes).
+Output written on Report.pdf (7 pages, 156664 bytes).
 PDF statistics:
  89 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
